@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "header": "Tourist ID Verification",
+    "type": "Security Alert",
+    "status": "Resolved",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 2,
+    "header": "Geo-fencing Alert - Restricted Zone",
+    "type": "Location Alert",
+    "status": "Active",
+    "target": "5",
+    "limit": "3",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 3,
+    "header": "Panic Button Activation",
+    "type": "Emergency",
+    "status": "Resolved",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 4,
+    "header": "AI Anomaly Detection - Route Deviation",
+    "type": "Behavior Alert",
+    "status": "Under Investigation",
+    "target": "3",
+    "limit": "2",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 5,
+    "header": "Missing Tourist Report",
+    "type": "Missing Person",
+    "status": "Active",
+    "target": "4",
+    "limit": "2",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 6,
+    "header": "IoT Device Signal Loss",
+    "type": "Technical Alert",
+    "status": "Resolved",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 7,
+    "header": "High-Risk Zone Entry",
+    "type": "Location Alert",
+    "status": "Active",
+    "target": "3",
+    "limit": "2",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 8,
+    "header": "Emergency Contact Notification",
+    "type": "Communication",
+    "status": "Resolved",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 9,
+    "header": "Blockchain ID Verification",
+    "type": "Security Alert",
+    "status": "Resolved",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 10,
+    "header": "Tourist Safety Score Update",
+    "type": "Assessment",
+    "status": "Completed",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 11,
+    "header": "Police Dispatch Request",
+    "type": "Emergency",
+    "status": "In Progress",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 12,
+    "header": "E-FIR Generation",
+    "type": "Documentation",
+    "status": "Completed",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 13,
+    "header": "Multilingual Support Request",
+    "type": "Communication",
+    "status": "Resolved",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 14,
+    "header": "Health Monitoring Alert",
+    "type": "Health Alert",
+    "status": "Active",
+    "target": "3",
+    "limit": "2",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 15,
+    "header": "Tourist Cluster Analysis",
+    "type": "Analytics",
+    "status": "Completed",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 16,
+    "header": "Data Privacy Compliance Check",
+    "type": "Security Alert",
+    "status": "Resolved",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 17,
+    "header": "Real-time Location Tracking",
+    "type": "Location Alert",
+    "status": "Active",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 18,
+    "header": "Emergency Response Team Dispatch",
+    "type": "Emergency",
+    "status": "In Progress",
+    "target": "3",
+    "limit": "2",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 19,
+    "header": "Tourist Registration Update",
+    "type": "Administrative",
+    "status": "Completed",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 20,
+    "header": "Safety Zone Boundary Update",
+    "type": "Configuration",
+    "status": "Resolved",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 21,
+    "header": "AI Model Performance Review",
+    "type": "Technical Alert",
+    "status": "Under Investigation",
+    "target": "4",
+    "limit": "3",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 22,
+    "header": "Tourist Feedback Processing",
+    "type": "Communication",
+    "status": "Completed",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 23,
+    "header": "Blockchain Transaction Verification",
+    "type": "Security Alert",
+    "status": "Resolved",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 24,
+    "header": "Emergency Contact Database Update",
+    "type": "Administrative",
+    "status": "Completed",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 25,
+    "header": "Tourist Itinerary Validation",
+    "type": "Verification",
+    "status": "Resolved",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 26,
+    "header": "Heat Map Zone Analysis",
+    "type": "Analytics",
+    "status": "Completed",
+    "target": "3",
+    "limit": "2",
+    "reviewer": "Sub-Inspector Amit Patel"
+  },
+  {
+    "id": 27,
+    "header": "Voice Command Processing",
+    "type": "Communication",
+    "status": "Resolved",
+    "target": "1",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 28,
+    "header": "Tourist Safety Training Module",
+    "type": "Educational",
+    "status": "Completed",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Inspector Rajesh Kumar"
+  },
+  {
+    "id": 29,
+    "header": "IoT Device Battery Low",
+    "type": "Technical Alert",
+    "status": "Active",
+    "target": "2",
+    "limit": "1",
+    "reviewer": "Constable Priya Singh"
+  },
+  {
+    "id": 30,
+    "header": "Tourist Cluster Heat Map",
+    "type": "Analytics",
+    "status": "Completed",
+    "target": "3",
+    "limit": "2",
+    "reviewer": "Sub-Inspector Amit Patel"
+  }
+]

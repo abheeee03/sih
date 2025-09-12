@@ -1,4 +1,4 @@
-import { Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { Ionicons, MaterialIcons, FontAwesome5 } from '@expo/vector-icons';
 import { Link } from 'expo-router';
 import { Drawer } from 'expo-router/drawer';
 
@@ -10,25 +10,60 @@ const DrawerLayout = () => {
       <Drawer.Screen
         name="index"
         options={{
-          headerTitle: 'Home',
-          drawerLabel: 'Home',
+          headerTitle: 'Tourist Safety Hub',
+          drawerLabel: 'Dashboard',
           drawerIcon: ({ size, color }) => (
             <Ionicons name="home-outline" size={size} color={color} />
           ),
         }}
       />
       <Drawer.Screen
-        name="(tabs)"
+        name="id-verification"
         options={{
-          headerTitle: 'Tabs',
-          drawerLabel: 'Tabs',
+          headerTitle: 'ID Verification',
+          drawerLabel: 'ID Verification',
           drawerIcon: ({ size, color }) => (
-            <MaterialIcons name="border-bottom" size={size} color={color} />
+            <Ionicons name="card-outline" size={size} color={color} />
           ),
-          headerRight: () => (
-            <Link href="/modal" asChild>
-              <HeaderButton />
-            </Link>
+        }}
+      />
+      <Drawer.Screen
+        name="emergency"
+        options={{
+          headerTitle: 'Emergency',
+          drawerLabel: 'Emergency',
+          drawerIcon: ({ size, color }) => (
+            <Ionicons name="warning-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      <Drawer.Screen
+        name="map"
+        options={{
+          headerTitle: 'Safety Map',
+          drawerLabel: 'Safety Map',
+          drawerIcon: ({ size, color }) => (
+            <Ionicons name="map-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      <Drawer.Screen
+        name="witness"
+        options={{
+          headerTitle: 'Digital Witness',
+          drawerLabel: 'Witness System',
+          drawerIcon: ({ size, color }) => (
+            <FontAwesome5 name="users" size={size} color={color} />
+          ),
+        }}
+      />
+      <Drawer.Screen
+        name="settings"
+        options={{
+          headerTitle: 'Settings',
+          drawerLabel: 'Settings',
+          drawerIcon: ({ size, color }) => (
+            <Ionicons name="settings-outline" size={size} color={color} />
           ),
         }}
       />
