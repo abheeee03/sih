@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TourGuard 🌍
 
-## Getting Started
+**AI & Blockchain-Powered Safety for Every Journey**  
 
-First, run the development server:
+TourGuard is a next-generation travel safety platform designed to protect tourists and empower authorities. By combining **AI-driven intelligence** with **blockchain-backed digital IDs**, it ensures tamper-proof verification, real-time alerts, and smarter emergency response—online or offline.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **For Tourists (Mobile App)**  
+- **Blockchain-Based Digital ID** – Store passport, visa, travel insurance, and vaccination records securely.  
+- **Instant Emergency Alerts & Panic Button** – Notify authorities and digital witnesses instantly.  
+- **Smart Geo-Fencing Notifications** – Get automatic alerts in risky zones, even offline.  
+- **Offline Maps & Navigation** – Navigate safely without internet.  
+- **Verified Safe Places** – Locate trusted hotels, hospitals, and police stations.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **For Authorities (Web Dashboard)**  
+- **Real-Time Heatmaps** – Monitor tourist clusters and high-risk zones.  
+- **AI-Powered Smart Response Detection** – Detect risks and trigger emergency protocols instantly.  
+- **Instant Tourist Verification** – Blockchain-backed QR scanning for secure ID validation.  
+- **Automated E-FIR Generation** – Quickly file missing person reports.  
+- **Unified Emergency Management** – Integrate police, fire, and ambulance for rapid coordination.  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Why TourGuard?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Travel today comes with uncertainties—lost documents, unsafe zones, emergencies in unfamiliar places. **TourGuard** solves this by:  
+- Combining **AI intelligence** with **blockchain security**  
+- Providing **offline and real-time safety features**  
+- Enabling authorities to **monitor, alert, and respond instantly**  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Peace of mind for travelers. Smarter tools for authorities. Safer journeys for everyone.  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Mobile App:** React Native / Expo  
+- **Web Dashboard:** React + Node.js + Express  
+- **Database:** Firebase / Supabase  
+- **Blockchain:** Ethereum / Hyperledger (for digital ID verification)  
+- **AI & Smart Detection:** TensorFlow.js / Python AI modules  
+- **Maps & Geofencing:** Mapbox / Google Maps API  
+
+---
+
+## ⚡ How It Works
+
+1. **Tourist Registration:** Create a blockchain-based digital ID in minutes.  
+2. **Travel Safely:** Receive alerts, navigate offline, access verified safe zones.  
+3. **Authority Monitoring:** Real-time heatmaps, risk detection, and automated emergency response.  
+
+---
+
+## 🌐 Screenshots / Demo
+
+*(Include app screenshots, dashboard images, or GIFs here for better clarity)*  
+
+---
+
+## 📂 Project Structure
+
