@@ -4,9 +4,16 @@ import {
   SidebarInset,
   SidebarProvider,
 } from "@/components/ui/sidebar"
+import { createClient } from "@/utlis/supabase/server"
+import { redirect } from "next/navigation"
 
 
-export default function Page({children}: {children: React.ReactNode}) {
+export default async function Page({children}: {children: React.ReactNode}) {
+    const supabase = await createClient()
+  const { data, error } = await supabase.auth.getUser()
+  if (error || !data?.user) {
+    redirect('/')
+  }
   return (
     <SidebarProvider
       style={
